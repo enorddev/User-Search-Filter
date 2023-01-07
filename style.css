@@ -17,10 +17,10 @@ body {
     border-radius: 6px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 300px;
+    width: 600px;
 }
 
-.tile {
+.title {
     margin: 0;
 }
 
@@ -31,23 +31,24 @@ body {
 }
 
 .header {
-    background-color: #3e57db;
+    background-color: #000000;
     color:#fff;
     padding: 30px 20px;
 }
 
 .header input {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #fff;
     border: 0;
     border-radius: 50px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 14px;
     padding: 10px 15px;
     width: 100%;
+    
 }
 
 .header input:focus {
-    outline: none;
+    outline: #f8f9fd;
 }
 
 .user-list {
@@ -61,6 +62,10 @@ body {
 
 .user-list li {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    
     padding: 20px;
     
 }
